@@ -15,6 +15,7 @@ body {
     background-repeat: repeat;
     background-size: cover;
     font-family: 'Street';
+    background-attachment: fixed;
 }
 
 h1{
@@ -46,9 +47,52 @@ tr,td{
 
 .cabecera{
     background-image: url('../img/fondocabecera.jpg');
+    background-attachment: fixed;
     background-size: cover;
     font-size: 40px;
     color: whitesmoke;
     opacity:0.5;
+}
+
+/* FORMULARIO */
+h2{
+    font-family: 'Street';
+    color: crimson;
+    font-size: 28px;
+    text-align: center;
+}
+
+#formulario{
+    width: 600px;
+    height: 1100px;
+    border: 10px outset rgb(237, 175, 5);
+    color: white;
+    border-radius: 10px;
+    background-color: black;
+    margin: auto;
+    font-size: 16px;
+    font-family: Verdana;
+}
+
+legend{
+    font-family: 'Street';
+    font-size: 14px;
+    color: rgb(237, 175, 5);
+}
+textarea{
+    width: 560px;
+}
+
+.boton{
+    border: 1px solid crimson;
+    background-color: crimson;
+    font-family: 'Street';
+    font-size: 18px;
+    color: white;
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    margin-left: 65px;
+    margin-bottom: 10px;
 }
 

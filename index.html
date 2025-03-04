@@ -75,6 +75,90 @@
             </td>
         </tr>
     </table>
+    
+    <!-- FORMULARIO -->
+
+    <h2>Formulario de Inscripción para jugar a Street Figther</h2>
+    <form id="formulario" name="formulario" method="post" enctype="multipart/form-data" class="fuente_pequena">
+        <fieldset class="fieldset">
+            <legend class="legend">Datos Personales</legend>
+            
+            <label for="nombre">Nombre:
+                <input type="text" id="nombre" name="Nombre">
+            </label>
+
+            <label for="apellidos" class="inline_item">Apellidos:
+                <input type="text" id="apellidos" name="Apellidos">
+            </label>
+             
+            <legend class="legend">Dirección Postal</legend>
+        
+            <label for="calle">Calle:
+                <input type="text" id="calle" name="Calle" placeholder="Calle">
+            </label>
+            
+            <label for="numero">Número:
+                <input type="number" id="numero" name="Numero" placeholder="Nº" min="1">
+            </label>
+            
+            <label for="piso">Piso:
+                <input type="text" id="piso" name="Piso" placeholder="Piso">
+            </label>
+            
+            <label for="codigo">Código Postal:
+                <input type="text" id="codigoPostal" name="codigoPostal" placeholder="Cod.Postal">
+            </label>
+            
+            <label for="ciudad">Ciudad:
+                <input type="text" id="ciudad" name="Ciudad" placeholder="Ciudad">
+            </label>
+
+            <label for="nick">Nick:
+                <input type="text" id="nick" name="nick">
+            </label>
+
+            <label for="email">Correo Electrónico*:
+                <input type="email" id="email" name="Correo Electrónico">
+            </label>
+        </fieldset>
+    
+        <fieldset class="fieldset">
+            <legend>SEXO USUARIO</legend>
+            <label for="sexo">Sexo:
+            <div>
+                <input type="radio" id="sexo1" name="sexo" value="H" class="inline_item"> Hombre
+                <input type="radio" id="sexo2" name="sexo" value="M" class="inline_item"> Mujer
+                <input type="radio" id="sexo3" name="sexo" value="X" class="inline_item"> Prefiero No Decir
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <label for="fechaNacimiento">Fecha de nacimiento:
+                <input type="date" id="nacimiento" name="Fecha de nacimiento" placeholder="dd/mm/yyyy">
+            </label>
+        </fieldset>
+
+        <fieldset>
+            <legend>PERSONAJES</legend>
+            <label for="personaje">Selecciona el personaje:
+                <input type="text" id="personaje" name="personaje">
+            </label>
+
+        </fieldset>
+
+        <fieldset class="fieldset">
+            <legend class="legend">Comentarios</legend>
+            <textarea id="comentarios" name="comentarios" placeholder="¿Tienes algún comentario o sugerencia que hacernos?" spellcheck="true" rows="5" cols="50"></textarea>
+        </fieldset>
+        
+        <input type="submit" id="enviar" value="Enviar" class="boton">
+        
+        
+        <input type="reset" id="borrar" value="Borrar" class="boton">
+        
+        <input type="file" id="adjuntar" value="Adjuntar" class="boton">
+        
+    </form>    
 </body>
 
 </html>
