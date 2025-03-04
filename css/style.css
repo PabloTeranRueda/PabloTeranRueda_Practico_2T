@@ -1,0 +1,54 @@
+@font-face {
+    font-family: 'Street';
+    src: url('../Font/street.otf');
+}
+
+:root {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+}
+
+body {
+    background-image: url('../img/fondo2.jpg');
+    background-repeat: repeat;
+    background-size: cover;
+    font-family: 'Street';
+}
+
+h1{
+    color: crimson;
+    font-size: 46px;
+    text-align: center;
+}
+
+table{
+    width: 600px;
+    height: 800px;
+    border: 10px outset rgb(237, 175, 5);
+    border-radius: 10px;
+    background-color: black;
+    margin: auto;
+}
+
+tr,td{
+    width: 40px;
+    height: 45px;
+    font-family: 'Street';
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-size: 18px bold;
+    color: darkorange;
+    margin: auto;
+    text-align: center;
+}
+
+.cabecera{
+    background-image: url('../img/fondocabecera.jpg');
+    background-size: cover;
+    font-size: 40px;
+    color: whitesmoke;
+    opacity:0.5;
+}
+
